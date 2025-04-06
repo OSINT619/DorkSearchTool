@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dork Search Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dork Search</h1>
+        <div id="paymentStatus"></div> <!-- Payment status display -->
+        
+        <input type="text" id="domainInput" placeholder="Enter domain or keyword (e.g., example.com)">
+        
+        <label for="dorkType" title="Select the type of Google Dork query to use">Select a Dork:</label>
+        <select id="dorkType">
+            <option value="basic" title='Find backlinks to "domain" excluding results from the domain itself'>Basic Dork</option>
+            <option value="inurl" title='Find links to "domain" in URLs, excluding the domain itself'>In URL Dork</option>
+            <option value="intext" title='Find mentions of "domain" in text, excluding the domain itself'>In Text Dork</option>
+            <option value="intitle" title='Find mentions of "domain" in page titles, excluding the domain itself'>In Title Dork</option>
+            <option value="filetype" title='Find specific file types mentioning "domain", excluding the domain itself'>Filetype Dork</option>
+        </select>
+
+        <label for="dateRange">Filter by Date Range:</label>
+        <select id="dateRange">
+            <option value="">Any Time</option>
+            <option value="yesterday">Past 24 hours</option>
+            <option value="week">Past Week</option>
+            <option value="month">Past Month</option>
+            <option value="year">Past Year</option>
+        </select>
+        <!-- Premium Features Section -->
+        <div id="premiumFeatures" style="display: none;">
+
+        <button id="searchButton">Search with Dork</button> <!-- Enabled by default -->
+
+        <button id="tipButton">Tip Me</button> <!-- Tip Me button -->
+
+        <div id="historyContainer">
+            <h2>Search History</h2>
+            <div id="searchHistoryListContainer">
+                <ul id="searchHistoryList"></ul>
+            </div>
+            <div class="clear-and-export">
+                <button id="clearAllButton">Clear All</button>
+                <button id="exportButton">Export to CSV</button>
+            </div>
+        </div>
+
+        <footer>
+            <p>Built by Compass Solutions</p>
+        </footer>
+        <script src="popup.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 220px;
+    padding: 20px;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 12px; /* Reduced padding */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px; /* Slightly reduced font size */
+    cursor: pointer;
+    margin: 5px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.clear-and-export {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.clear-and-export button {
+    flex: 1;
+    margin: 5px 2px; /* Adjust margins for better spacing */
+    padding: 6px 10px; /* Further reduced padding for smaller size */
+    font-size: 12px; /* Further reduced font size for smaller buttons */
+}
+
+#searchHistoryListContainer {
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+#searchHistoryList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+#searchHistoryList li {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 2px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.deleteButton:hover {
+    background-color: #c0392b;
+}
+
+#resultsContainer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#resultsContainer h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#resultsContainer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+
+
+.clear-and-export {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
