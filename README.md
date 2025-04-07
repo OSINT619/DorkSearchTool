@@ -49,7 +49,7 @@ DorkSearchTool/Dork Search Tool
 (That inner folder contains the manifest.json and all required files.)
 Click Select Folder (or Open depending on your OS).
 
-✅ 5. Start Using the Extension
+✅ 5. Start Using the Extension:
 You should now see the extension once you click on the puzzle peice icon in your Chrome toolbar, make sure to pin the extension for easy access. 
 Click the icon to open the interface.
 Use the dropdowns and buttons to build your Google dork queries.
@@ -64,4 +64,4 @@ Google will pull up a search that says: "Google Hacking Cheat Sheet pdf" -site:G
 Delete "Google Hacking Cheat Sheet pdf" and hit enter.
 Congrats, you've just gotten your first google dorking results. 
 
-✅ Have fun and don't forget to always delete the quoted text in the google search field and then hit enter to receive your results. 
+✅ IMPORTANT: Have fun and don't forget to always delete the quoted text in the google search field and then hit enter to receive your results. 
