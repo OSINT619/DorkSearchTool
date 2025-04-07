@@ -55,4 +55,14 @@ Click the icon to open the interface.
 Use the dropdowns and buttons to build your Google dork queries.
 Click Search to open a new tab with the generated search.
 
+✅ 6. Example Usage:
+Click on the pinned extension
+Leave the "Select a Dork" on the default option
+Type "Google Hacking Cheat Sheet pdf" in the text field
+Click on "Search With Dork"
+Google will pull up a search that says: "Google Hacking Cheat Sheet pdf" -site:Google Hacking Cheat Sheet pdf
+Delete "Google Hacking Cheat Sheet pdf" and hit enter.
+Congrats, you've just gotten your first google dorking results. 
+
+✅ Have fun and don't forget to always delete the quoted text in the google search field and then hit enter to receive your results. 
 
